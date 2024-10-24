@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Material App',
-      home: PantallaCaculadora(),
+      home: PantallaCalculadora(),
       theme: ThemeData.dark().copyWith(
         scaffoldBackgroundColor: Colors.black
       ),
