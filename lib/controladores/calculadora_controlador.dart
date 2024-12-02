@@ -81,6 +81,13 @@ class CalculadoraControlador extends GetxController {
         mathResult.value = '${num1 * num2}';
         break;
 
+      case '%': 
+        mathResult.value = '${(num1 * num2) / 100}';  /*Formula para sacar porcentaje */
+        break;
+      case '^': 
+        mathResult.value = '${num1 * num1}'; /*Formula para elevar al cuadrado */
+        break;
+
       default:
         return;
     }
